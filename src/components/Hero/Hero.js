@@ -14,7 +14,7 @@ const Hero = (props) => (
       <SectionText>
         Here you will find projects I have done or contributed in!
       </SectionText>
-      <Button onClick={() => window.location = 'https://google.com'}>Learn More</Button>
+      <Button onClick={() => window.location = 'https://google.com'}>Learn More</Button> {/* replace website with email? */}
     </LeftSection>
   </Section>
 );
